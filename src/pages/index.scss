@@ -1,0 +1,16 @@
+$theme-colors: (
+  "info": #3333,
+  // "danger": teal
+);
+
+.main-wrapper {
+  background-color: #ececec;
+	min-height: 100vh;
+
+  .content-wrapper {
+    // flex: 1;
+    // display: flex;
+  }
+}
+
+@import "~bootstrap/scss/bootstrap";

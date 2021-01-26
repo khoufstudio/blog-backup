@@ -1,0 +1,28 @@
+.main-wrapper-blogpost {
+	background-color: #ececec;
+
+  .blogpost-wrapper {
+	  min-height: 1000px;
+		h1 {
+			font-weight: 400;
+  	} 
+		.subtitle {
+			font-size: 14px;
+			color: #666666;
+			.subtitle-item:not(:first-child) {
+				margin-left: 10px;
+				padding-left: 10px;
+				border-left: 1px solid #6666;
+				&.read-time {
+					font-weight: bold;
+				}
+			}
+		}
+  }
+  .next-page-wrapper {
+	  a {
+			color: #333333;
+			font-weight: 700;
+    }
+  }
+}

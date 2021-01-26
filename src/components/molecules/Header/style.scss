@@ -1,0 +1,12 @@
+nav {
+  height: 80px;
+  box-shadow: 1px -8px 14px rgba(178,180,185,.2);
+	
+	&.navbar {
+		.navbar-brand {
+			color: #7f7f7f;
+			font-size: 20px;
+			font-weight: bold;
+		}
+	}
+}
